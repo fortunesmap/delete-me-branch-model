@@ -13,3 +13,4 @@ I want a branch model that works for Focus, three developers with ongoing DEV an
 If I can get this working then it is both simple and adequite for Portal.
 
 
+[SO how-do-i-git-push-under-a-different-username-after-a-commit](https://stackoverflow.com/questions/77361153/how-do-i-git-push-under-a-different-username-after-a-commit) acran resposne is informative. 
