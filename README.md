@@ -11,6 +11,10 @@ Anthoer Joseph Kufner [set-the-develop-branch-as-the-default-for-a-pull-request]
 >
 >To keep master branch deployable, merge feature branches when they are ready. But since you have stable branch, new features does not have to be well tested.
 
+[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) suggests
+
+>If your team is doing continuous delivery of software, I would suggest to adopt a much simpler workflow like [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) instead of trying to shoehorn git-flow into your team.
+
 
 ## Steps
 - Tag releases
