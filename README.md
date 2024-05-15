@@ -4,6 +4,14 @@ I want a branch model that works for Focus, three developers with ongoing DEV an
 [git-with-development-staging-and-production-branches](https://stackoverflow.com/questions/15072243/git-with-development-staging-and-production-branches) mentions 
 [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) and a proposal by Josef Kufner for *"simpler method, where development is done in master branch and stable versions are tagged in master branch and they have their stable branch for patches if required."*. I am interested in the first instance in this simpler method which is what I'll try out in this repository. 
 
+Anthoer Joseph Kufner [set-the-develop-branch-as-the-default-for-a-pull-request](https://stackoverflow.com/questions/14858075/set-the-develop-branch-as-the-default-for-a-pull-request/14858295#14858295) post where he summarises approach as:
+>Instead of using master and develop branches, use stable and master.
+>
+>Then it is usually good to merge them before tagging a new version, so there is none or only little diversion. I use this schema and usually stable follows master with small delay and merges are mostly fast-forward.
+>
+>To keep master branch deployable, merge feature branches when they are ready. But since you have stable branch, new features does not have to be well tested.
+
+
 ## Steps
 - Tag releases
 - Tag latest
