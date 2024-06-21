@@ -1,2 +1,3 @@
 17-5000 updated
 jdprosser fixed the pinia-not-ready bug. Yay.
+20240621 17-500 edits
